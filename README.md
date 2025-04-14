@@ -11,6 +11,7 @@
   - [React](#react)
   - [Vue 3 (Composition API)](#vue-3-composition-api)
   - [Svelte](#svelte)
+- [🔧 Examples](#examples)
 - [⚙️ API](#️-api)
 - [📄 License](#-license)
 
@@ -98,6 +99,18 @@ const current = useBreakpoint(breakpoints)
 
 ---
 
+## 🔧 Examples
+
+Here are example projects demonstrating the usage of `responsive-detect` in different frameworks:
+
+- **[React Example](https://github.com/your-username/responsive-detect/blob/main/examples/react-example.jsx)**
+- **[Vue 3 Example](https://github.com/your-username/responsive-detect/blob/main/examples/vue3-example.vue)**
+- **[Svelte Example](https://github.com/your-username/responsive-detect/blob/main/examples/svelte-example.svelte)**
+
+You can clone the examples or add the `responsive-detect` package to your existing project to test responsiveness.
+
+---
+
 ## ⚙️ API
 
 ### `useBreakpoint(breakpoints)`
@@ -118,4 +131,4 @@ A reactive value with the current breakpoint label (e.g., "mobile", "tablet", "d
 
 ## 📄 License
 
-MIT © 2025 YourName
+MIT © 2025 Santosh Shebannavar
