@@ -1,19 +1,17 @@
-import React from 'react'
-import { useBreakpoint } from 'responsive-detect'
-
-const breakpoints = {
-  mobile: 0,
-  tablet: 768,
-  desktop: 1024
-}
+import React from 'react';
+import { useResponsive } from 'responsive-detect';
 
 export default function App() {
-  const current = useBreakpoint(breakpoints)
+  const { isMobile, isTablet, isDesktop } = useResponsive();
 
   return (
-    <div style={{ padding: 20 }}>
-      <h1>Responsive Detect - React</h1>
-      <p>Current breakpoint: <strong>{current}</strong></p>
+    <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
+      <h1>Responsive-Detect Test</h1>
+      <ul>
+        <li>isMobile: {isMobile ? '✅' : '❌'}</li>
+        <li>isTablet: {isTablet ? '✅' : '❌'}</li>
+        <li>isDesktop: {isDesktop ? '✅' : '❌'}</li>
+      </ul>
     </div>
-  )
+  );
 }
