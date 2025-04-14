@@ -1,6 +1,6 @@
 {
   "name": "responsive-detect",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -39,6 +39,7 @@
   },
   "homepage": "https://github.com/shebannavar/responsive-detect#readme",
   "devDependencies": {
+    "@testing-library/react": "^16.3.0",
     "@types/node": "^22.14.1",
     "@types/react": "^19.1.1",
     "@types/react-dom": "^19.1.2",
