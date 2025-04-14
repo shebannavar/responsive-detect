@@ -103,9 +103,9 @@ const current = useBreakpoint(breakpoints)
 
 Here are example projects demonstrating the usage of `responsive-detect` in different frameworks:
 
-- **[React Example](https://github.com/your-username/responsive-detect/blob/main/examples/react-example.jsx)**
-- **[Vue 3 Example](https://github.com/your-username/responsive-detect/blob/main/examples/vue3-example.vue)**
-- **[Svelte Example](https://github.com/your-username/responsive-detect/blob/main/examples/svelte-example.svelte)**
+- **[React Example](https://github.com/shebannavar/responsive-detect/blob/main/examples/react-example.jsx)**
+- **[Vue 3 Example](https://github.com/shebannavar/responsive-detect/blob/main/examples/vue3-example.vue)**
+- **[Svelte Example](https://github.com/shebannavar/responsive-detect/blob/main/examples/svelte-example.svelte)**
 
 You can clone the examples or add the `responsive-detect` package to your existing project to test responsiveness.
 
